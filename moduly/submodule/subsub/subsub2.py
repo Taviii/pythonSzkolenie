@@ -1,0 +1,4 @@
+
+
+def placki():
+    return "placki"

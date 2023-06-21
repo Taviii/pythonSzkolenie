@@ -201,3 +201,7 @@ print(kelvin_to_cel(0))
 
 # dir(kelvin_to_cel)
 
+a='ant'
+b="bat"
+c='camel'
+print(a,b,c, sep='"')
