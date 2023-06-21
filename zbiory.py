@@ -50,7 +50,16 @@ print(suma(2, 5, 7))
 
 
 def dwie_gwiazdki(**kwargs):
-    return [kwargs]
+    keys = kwargs.keys()
+    return keys
 
 
-print(dwie_gwiazdki())
+d = {"a":1, "b":2}
+print(dwie_gwiazdki(**d))
+
+
+def foo(x=1, y=2):
+    return x+y
+
+
+print(foo())
