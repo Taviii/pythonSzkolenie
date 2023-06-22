@@ -51,3 +51,6 @@ total_count = sum(len(row) for row in matrix)
 
 matrix_mean = total_sum / total_count
 print(matrix_mean)
+
+#map/filter pokazać parzyste z tablicy
+
